@@ -1,0 +1,13 @@
+{
+  "itemGroup.jm1133_magnetic": "Example Mod Tab",
+  "block.jm1133_magnetic.example_block": "Example Block",
+  "item.jm1133_magnetic.example_item": "Example Item",
+
+  "jm1133_magnetic.configuration.title": "Create Simulated: Magnetic Configs",
+  "jm1133_magnetic.configuration.section.jm1133_magnetic.common.toml": "Create Simulated: Magnetic Configs",
+  "jm1133_magnetic.configuration.section.jm1133_magnetic.common.toml.title": "Create Simulated: Magnetic Configs",
+  "jm1133_magnetic.configuration.items": "Item List",
+  "jm1133_magnetic.configuration.logDirtBlock": "Log Dirt Block",
+  "jm1133_magnetic.configuration.magicNumberIntroduction": "Magic Number Text",
+  "jm1133_magnetic.configuration.magicNumber": "Magic Number"
+}
