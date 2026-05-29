@@ -28,6 +28,7 @@ sourceSets.main.resources {
 
 repositories {
     mavenLocal()
+    maven { url = "https://api.modrinth.com/maven"} //modrinth aeronautics
     maven { url = "https://maven.ithundxr.dev/snapshots" }
     maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
     maven { url = "https://mvn.devos.one/snapshots" } // Registrate
@@ -128,6 +129,8 @@ configurations {
 }
 
 dependencies {
+    implementation("maven.modrinth:sable:1.2.2+mc1.21.1")
+    implementation("maven.modrinth:create-aeronautics:1.2.1+mc1.21.1")
     implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
     implementation("net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}")
     compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
